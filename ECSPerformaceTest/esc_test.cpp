@@ -9,7 +9,7 @@ using std::endl;
 using std::vector;
 
 class Entity {
-    protected: volatile long dummy;
+    protected: volatile long long dummy;
 
     public: virtual void Update() = 0;
 };
